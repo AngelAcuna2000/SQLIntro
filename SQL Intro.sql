@@ -16,8 +16,8 @@ OR Price = 13.99;
 -- find all products that do NOT cost 11.99 - using NOT
 
 SELECT * FROM Products 
-WHERE Price != 11.99 
-AND Price != 13.99;
+WHERE NOT Price = 11.99 
+AND NOT Price = 13.99;
 
 -- find all products and sort them by price from greatest to least
 
